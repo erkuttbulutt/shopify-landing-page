@@ -1,0 +1,40 @@
+#twins {
+  background-color: $white-color;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  .container {
+    display: flex;
+    //column-gap: 500px;
+
+    .left {
+      padding-right: 200px;
+
+      q {
+        font-size: 46px;
+        font-weight: 700;
+        line-height: 51px;
+      }
+
+      .p1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        margin-top: 45px;
+      }
+
+      .p2 {
+        margin-top: 20px;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .right {
+      img {
+        width: fit-content;
+      }
+    }
+  }
+}

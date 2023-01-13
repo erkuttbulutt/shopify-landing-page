@@ -1,0 +1,94 @@
+#support {
+  .container-100 {
+    background-color: $black-color;
+
+    .container {
+      padding-top: 100px;
+
+      .top {
+        h2 {
+          color: rgb(99, 221, 185);
+          font-size: 16px;
+          text-align: center;
+        }
+
+        p {
+          margin: 50px 300px 0 300px;
+          font-size: 72px;
+          color: $white-color;
+          font-weight: 700;
+          text-align: center;
+          line-height: 72px;
+        }
+      }
+
+      .all-card {
+        margin-top: 100px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
+        padding-bottom: 200px;
+
+        .card {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          gap: 30px;
+          background-color: #0e0e0e;
+          width: 562px;
+          height: 374px;
+          padding: 48px 64px 48px 48px;
+          border-radius: 20px;
+
+          .logo {
+            background-color: $green-color;
+            width: 56px;
+            height: 56px;
+          }
+
+          h3 {
+            color: $white-color;
+            font-weight: 700;
+            font-size: 36px;
+          }
+
+          p {
+            color: $white-color;
+            display: inline;
+            font-size: 18px;
+            line-height: 28px;
+          }
+
+          .buton {
+            background-color: $btn-gray-dark;
+            padding: 4px 12px 4px 12px;
+            width: 110px;
+            border-radius: 25px;
+            border: 1px solid $btn-gray-light;
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+
+            &:hover {
+              background-color: $btn-gray-light;
+            }
+
+            a {
+              color: $white-color;
+              font-size: 16px;
+            }
+
+            i {
+              color: $white-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
