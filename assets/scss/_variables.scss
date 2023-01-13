@@ -1,0 +1,58 @@
+$max-width: 1350px;
+$black-color: #000;
+$green-color: #e5fbba;
+$white-color: #fff;
+
+@font-face {
+  font-display: swap;
+  font-family: "ShopifySans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://cdn.shopify.com/static/fonts/ShopifySans--light.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ShopifySans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ShopifySans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ShopifySans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://cdn.shopify.com/static/fonts/ShopifySans--bold.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ShopifySans;
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://cdn.shopify.com/static/fonts/ShopifySans--extrabold.woff2)
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ShopifySans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://cdn.shopify.com/static/fonts/ShopifySans--black.woff2)
+    format("woff2");
+}

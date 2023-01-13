@@ -1,0 +1,27 @@
+.container {
+  max-width: $max-width;
+  padding: 0 0;
+  margin: auto;
+
+  &-100 {
+    max-width: 100vw;
+    padding: 0 0;
+    margin: 0 0;
+  }
+}
+
+.flex {
+  display: flex;
+
+  &-space-between {
+    justify-content: space-between;
+  }
+}
+
+//Button
+
+@mixin button($color, $background-color) {
+  cursor: pointer;
+  color: $color;
+  background-color: $background-color;
+}
