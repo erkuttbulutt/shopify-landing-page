@@ -1,0 +1,101 @@
+#sixpictures {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  .container {
+    .all-divs {
+      height: 770px;
+      display: flex;
+      justify-content: space-between;
+      column-gap: 50px;
+
+      .left {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+
+        .img {
+          &-1 {
+            width: 112px;
+            height: 175px;
+            align-self: end;
+          }
+          &-2 {
+            width: 208px;
+            height: 325px;
+            z-index: 1;
+          }
+          &-3 {
+            width: 160px;
+            height: 247px;
+            align-self: end;
+            position: relative;
+            top: -20px;
+            z-index: 0;
+          }
+        }
+      }
+
+      .middle {
+        margin-top: 100px;
+        flex-grow: 2;
+        h2 {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          text-align: center;
+        }
+        .spans {
+          display: flex;
+          flex-direction: column;
+
+          span {
+            font-size: 128px;
+            font-weight: 700;
+            letter-spacing: -6.4px;
+            line-height: 128px;
+            text-align: center;
+          }
+
+          .colorful {
+            color: $white-color;
+            
+            background-color: #15c064;
+            background-image: linear-gradient(
+              106.94deg,
+              #15c064 28.5%,
+              #00d1ff 91.82%
+            );
+            background-size: 100%;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-text-fill-color: transparent;
+          }
+        }
+      }
+
+      .right {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        .img {
+          &-1 {
+            width: 112px;
+            height: 175px;
+          }
+          &-2 {
+            width: 208px;
+            height: 325px;
+            align-self: end;
+          }
+          &-3 {
+            width: 160px;
+            height: 247px;
+            position: relative;
+            top: -20px;
+          }
+        }
+      }
+    }
+  }
+}

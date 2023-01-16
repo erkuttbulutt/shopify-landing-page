@@ -1,0 +1,70 @@
+#store {
+  background-color: rgb(249, 250, 251);
+  margin-top: 100px;
+  padding-top: 100px;
+  .container {
+    h2 {
+      color: rgb(8, 68, 94);
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+
+    .p1 {
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 72px;
+    }
+
+    .video {
+      margin-top: 40px;
+      width: 1420px;
+      height: 612px;
+      background-color: aqua;
+      border-radius: 20px;
+    }
+
+    .bottom {
+      margin-top: 60px;
+      display: flex;
+      gap: 20px;
+      padding-bottom: 100px;
+
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        &::before {
+          content: "";
+          position: absolute;
+          height: 2px;
+          top: -15px;
+          width: 100%;
+          background-image: linear-gradient(
+            to right top,
+            rgb(0, 255, 117),
+            rgb(121, 223, 255),
+            rgb(197, 209, 255)
+          );
+        }
+      }
+
+      p {
+        font-size: 18px;
+        font-weight: 400;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -44,6 +44,7 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
 
       .left {
         margin-top: 30px;
@@ -66,6 +67,7 @@ footer {
         margin-top: 30px;
 
         i {
+          font-size: 24px;
           margin-right: 20px;
           background-color: $white-color;
           color: $black-color;

@@ -43,10 +43,31 @@
           padding: 48px 64px 48px 48px;
           border-radius: 20px;
 
+          #logo-1{
+            background:linear-gradient(46.87deg, #96E4E9 0%, #82F953 96.94%);
+          }
+          #logo-2{
+            background:linear-gradient(45deg, #63FFA9 0%, #623AFF 120.54%)
+          }
+          #logo-3{
+            background:linear-gradient(46.87deg, #5576ED 0%, #6FFD96 96.94%)
+          }
+          #logo-4{
+            background:linear-gradient(150.75deg, #66D08A 17.95%, #436AF4 93.13%)
+          }
           .logo {
             background-color: $green-color;
             width: 56px;
             height: 56px;
+
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg {
+              width: 24px;
+              height: 24px;
+            }
           }
 
           h3 {
@@ -65,17 +86,22 @@
           .buton {
             background-color: $btn-gray-dark;
             padding: 4px 12px 4px 12px;
-            width: 110px;
+            width: fit-content;
             border-radius: 25px;
             border: 1px solid $btn-gray-light;
-            display: inline-flex;
+            display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
             gap: 8px;
             cursor: pointer;
 
             &:hover {
               background-color: $btn-gray-light;
+              i {
+                margin-left: 10px;
+                transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+              }
             }
 
             a {
@@ -85,6 +111,8 @@
 
             i {
               color: $white-color;
+              font-size: 12px;
+              transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
             }
           }
         }
