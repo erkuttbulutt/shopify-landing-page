@@ -1,6 +1,7 @@
 #first {
   margin-bottom: 50px;
   position: relative;
+  overflow: hidden;
 
   &::before {
     background-size: auto, 32px 32px;
